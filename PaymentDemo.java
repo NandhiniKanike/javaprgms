@@ -50,7 +50,7 @@ public class PaymentDemo
     {
         Payment[] payments=new Payment[2];
         payments[0]=new UPIPayment("TXN001", 1500, "user@upi");
-        payments[1]=new CardPayment("TXN002", 3000, "1234-5678-9876-5432");
+        payments[1]=new CardPayment("TXN003", 3000, "1234-5678-9876-5432");
         for(Payment payment:payments)
         {
             payment.processPayment();
